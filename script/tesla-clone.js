@@ -14,3 +14,12 @@ openMenu.forEach(menuBtn => {
 overlayClose.addEventListener('click', (e) => {
   overlay.classList.remove('show')
 });
+ScrollOut({
+  scrollingElement: ".container",
+  onShown: function(el) {
+    el.animate([{ opacity: 0 }, { opacity: 1 }], 1500);
+  },
+  onHidden: function(el) {
+    el.animate([{ opacity: 1 }, { opacity: 0 }], 1500);
+  }
+});
