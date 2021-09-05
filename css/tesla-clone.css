@@ -154,13 +154,13 @@ p {
   background-position: center;
 }
 .container__section:nth-child(1) {
-  background-image: url(/img/section-img/one.jpg);
+  background-image: url(../img/section-img/one.jpg);
 }
 .container__section:nth-child(2) {
-  background-image: url(/img/section-img/two.jpg);
+  background-image: url(../img/section-img/two.jpg);
 }
 .container__section:nth-child(3) {
-  background-image: url(/img/section-img/three.jpg);
+  background-image: url(../section-img/three.jpg);
 }
 .header__nav--mobile {
   display: none;
